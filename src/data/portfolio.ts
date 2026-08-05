@@ -40,22 +40,16 @@ export const storyTimeline = [
       "Completed my degree and discovered frontend development — where logic meets design, and code becomes experience.",
   },
   {
-    year: "2025",
-    title: "Assistant Programmer",
+    year: "2024–2025",
+    title: "Assistant Programmer at UGI",
     description:
-      "Worked on legacy PHP systems at scale. Learned how real production software operates — and began building with React on the side.",
+      "Maintained institutional web portals serving 9,000+ users, developed Educraze, and resolved critical modules used by 10,000+ faculty and students.",
   },
   {
     year: "2025–2026",
-    title: "Built Real Client Projects",
+    title: "Frontend Developer at Sabrtel",
     description:
-      "Shipped production frontends for Sabrtel, A1 Sydney Build, and other clients — turning briefs into live, performant web experiences.",
-  },
-  {
-    year: "2026",
-    title: "Founded DigiHooks",
-    description:
-      "Started my own agency focused on modern digital experiences — combining engineering discipline with product thinking.",
+      "Built a telecom & IT services platform end-to-end with Next.js — improving SEO from 68% to 95% and search visibility from 50% to 85%.",
   },
 ];
 
@@ -111,16 +105,16 @@ export const projects = [
   {
     id: "digihooks",
     title: "DigiHooks",
-    subtitle: "Agency & Digital Solutions",
+    subtitle: "Digital Services Web Platform",
     problem:
-      "Needed a premium digital presence and scalable platform to deliver modern web experiences for clients across industries.",
+      "A digital marketing and web solutions business needed a responsive platform to showcase services and capture leads effectively.",
     approach:
-      "Architected and built the agency platform with Next.js, TypeScript, and a component-driven design system focused on performance and clarity.",
-    tech: ["Next.js", "TypeScript", "Tailwind", "Framer Motion", "Node.js"],
+      "Developed the platform with React.js and Tailwind CSS — building 15+ reusable UI components and structuring 10+ service pages for scalable, consistent design.",
+    tech: ["React", "Tailwind CSS", "JavaScript"],
     challenges:
-      "Balancing brand identity with flexibility — creating a system that works for diverse client needs without losing cohesion.",
+      "Balancing lead-focused layouts with performance — ensuring fast load times while driving user enquiries through WhatsApp contact flows.",
     outcome:
-      "Established DigiHooks as a modern digital agency with production-grade frontend architecture and client-ready delivery workflows.",
+      "Delivered a cross-browser compatible, mobile-responsive platform with optimized performance and improved UI/UX engagement for hundreds of users.",
     liveUrl: "https://www.digihooks.in/",
     githubUrl:
       "https://github.com/SANJANAGUPTA2003/Digi-hooks---A-web-and-digital-marketing-solutions",
@@ -192,42 +186,42 @@ export const techFlow = [
 
 export const experience = [
   {
-    period: "2026",
-    role: "Founder",
-    company: "DigiHooks",
-    type: "Founder",
-    description:
-      "Building a digital agency focused on modern web experiences — from strategy and design to production frontend delivery.",
-    highlights: [
-      "Own frontend architecture across all client projects",
-      "Established component systems and delivery workflows",
-      "Direct client communication and project scoping",
-    ],
-  },
-  {
     period: "2025 — 2026",
     role: "Frontend Developer",
-    company: "Freelance Projects",
-    type: "Freelance",
+    company: "Sabrtel",
+    type: "Full-Time",
     description:
-      "Delivered production frontends for Sabrtel, A1 Sydney Build, and other clients — end-to-end from design to deployment.",
+      "Developed a telecom & IT services platform end-to-end using Next.js and Tailwind CSS, collaborating directly with business requirements.",
     highlights: [
-      "Built responsive, performance-optimized web applications",
-      "Integrated REST APIs and managed application state",
-      "Shipped projects on deadline with direct client feedback loops",
+      "Improved SEO score from 68% to 95% through technical optimizations",
+      "Increased search visibility from 50% to 85% via content and keyword strategy",
+      "Integrated Google Tag Manager and optimized performance (images, loading speed)",
     ],
   },
   {
     period: "2024 — 2025",
     role: "Assistant Programmer",
-    company: "Professional Role",
-    type: "Professional",
+    company: "UGI",
+    type: "Full-Time",
     description:
-      "Worked on legacy PHP systems in a production environment — learning how real software operates at scale while building with React independently.",
+      "Maintained and enhanced institutional web portals serving 9,000+ users, including Educraze and critical modules used by 10,000+ faculty and students.",
     highlights: [
-      "Maintained and extended legacy PHP codebases",
-      "Collaborated within structured development workflows",
-      "Self-directed learning in modern frontend stack",
+      "Developed Educraze with improved UI, navigation, and reduced bounce rate",
+      "Uploaded 5,000+ student records within 48 hours for NAAC compliance",
+      "Implemented note-taking feature and long-term data persistence for users",
+    ],
+  },
+  {
+    period: "Freelance",
+    role: "Frontend Developer",
+    company: "Client Projects",
+    type: "Freelance",
+    description:
+      "Delivered production frontends for A1 Tile Solutions, DigiHooks, and other clients — end-to-end from design to deployment.",
+    highlights: [
+      "Built responsive, performance-optimized web applications",
+      "Integrated WhatsApp-based lead generation and contact flows",
+      "Shipped projects on deadline with direct client feedback loops",
     ],
   },
 ];
