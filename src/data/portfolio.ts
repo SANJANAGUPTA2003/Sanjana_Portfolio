@@ -9,7 +9,7 @@ export const siteConfig = {
   email: "sanjana.24gk@gmail.com",
   linkedin: "https://www.linkedin.com/in/sanjana-gupta-818b92239/",
   github: "https://github.com/SANJANAGUPTA2003",
-  resumeUrl: "/resume/Sanjana_Gupta_Resume.pdf",
+  resumeUrl: "/resume/Sanjana_Gupta_CV.pdf",
   images: {
     hero: "/images/herosection.png",
     podium: "/images/podium.png",
