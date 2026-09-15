@@ -45,7 +45,7 @@ export function RecentWork() {
             <div className="text-center">
               <p className="section-label mb-4">Next Chapter</p>
               <h3 className="font-display text-2xl font-semibold text-text-primary sm:text-3xl lg:text-4xl">
-                The next project could be yours
+                The next project is currently in the works
               </h3>
             </div>
           </article>

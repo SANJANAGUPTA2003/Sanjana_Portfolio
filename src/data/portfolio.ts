@@ -140,22 +140,22 @@ export const projects = [
     accent: "#9A8F7A",
   },
   {
-    id: "a1-sydney",
-    title: "A1 Sydney Build",
-    subtitle: "Premium Tiling & Renovations",
+    id: "blemout",
+    title: "Blemout",
+    subtitle: "Full Stack Skincare E-commerce Platform",
     problem:
-      "The existing site didn't reflect the quality of their construction work and performed poorly on mobile devices.",
+      "A skincare brand needed a complete e-commerce platform — from product browsing and checkout to order tracking and payment processing.",
     approach:
-      "Built a performance-first marketing site with immersive hero imagery, project galleries, and streamlined lead capture flows.",
-    tech: ["React", "Next.js", "Tailwind", "GSAP"],
+      "Built the full stack platform from scratch using React.js, Next.js, Node.js, Express.js, and MongoDB — independently handling UI/UX design, frontend, backend, API development, and deployment on Vercel and Render.",
+    tech: ["React", "Next.js", "Node.js", "Express", "MongoDB", "Razorpay"],
     challenges:
-      "Showcasing heavy visual content while maintaining fast load times and strong Core Web Vitals scores.",
+      "Structuring scalable product and order management while integrating Razorpay payments, coupon functionality, and MongoDB Atlas across a distributed frontend-backend deployment.",
     outcome:
-      "A polished brand presence live at a1sydneybuild.com.au that improved mobile engagement and contact submissions.",
-    liveUrl: "https://www.a1sydneybuild.com.au/",
+      "A live skincare e-commerce platform at blemout.com with product browsing, shopping flows, order management, coupon support, contact forms, and order tracking.",
+    liveUrl: "https://blemout.com/",
     githubUrl: null,
-    screenshot: "/images/projects/a1-sydney-build.png",
-    accent: "#7A8F8A",
+    screenshot: "/images/projects/blemout.png",
+    accent: "#C4A882",
   },
   {
     id: "wanderwise",
@@ -217,10 +217,10 @@ export const experience = [
     company: "Client Projects",
     type: "Freelance",
     description:
-      "Delivered production frontends for A1 Tile Solutions, DigiHooks, and other clients — end-to-end from design to deployment.",
+      "Delivered production web applications for DigiHooks and Blemout — end-to-end from design to deployment.",
     highlights: [
-      "Built responsive, performance-optimized web applications",
-      "Integrated WhatsApp-based lead generation and contact flows",
+      "Built DigiHooks digital services platform with React and WhatsApp lead flows",
+      "Developed Blemout full-stack e-commerce platform with Razorpay payment integration",
       "Shipped projects on deadline with direct client feedback loops",
     ],
   },
